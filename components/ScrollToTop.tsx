@@ -22,7 +22,7 @@ export default function ScrollToTop() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 20, scale: 0.8 }}
                     onClick={scrollToTop}
-                    className="fixed bottom-8 right-8 z-50 p-4 bg-[#18181B] text-white rounded-full shadow-2xl hover:bg-[#18181B]/80 transition-colors group"
+                    className="fixed bottom-8 right-8 z-50 p-4 bg-[#292D29] text-[#F7F5EF] rounded-full shadow-2xl hover:bg-[#292D29]/80 transition-colors group"
                 >
                     <ArrowUp size={20} className="group-hover:-translate-y-1 transition-transform" />
                 </motion.button>
